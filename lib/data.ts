@@ -6,7 +6,7 @@ export const projects: Project[] = [
     description:
       "Intelligent job tracking system that automatically syncs emails via Microsoft Graph API, extracts application details using Groq LLM, and provides AI-powered insights on your job search pipeline.",
     stack: ["FastAPI", "Next.js", "Microsoft Graph API", "Groq LLM", "PostgreSQL", "Docker"],
-    github: "https://github.com/shivenpaudyal",
+    github: "https://github.com/shivenpaudyal9/job-tracker",
     demo: "",
     featured: true,
   },
@@ -15,7 +15,7 @@ export const projects: Project[] = [
     description:
       "Real-time soccer player tracking system using YOLOv8 object detection with Kalman Filter for trajectory smoothing. Generates tactical heatmaps, speed metrics, and formation analysis from raw match footage.",
     stack: ["YOLOv8", "Kalman Filter", "OpenCV", "Python", "NumPy", "Matplotlib"],
-    github: "https://github.com/shivenpaudyal",
+    github: "https://github.com/shivenpaudyal9/-soccer-video-analytics",
     demo: "",
     featured: true,
   },
@@ -24,7 +24,7 @@ export const projects: Project[] = [
     description:
       "End-to-end ML pipeline predicting customer churn with 94% AUC. Features SHAP explainability dashboard for business stakeholders, MLflow experiment tracking, and automated retraining workflows.",
     stack: ["XGBoost", "SHAP", "MLflow", "Scikit-learn", "Pandas", "Streamlit"],
-    github: "https://github.com/shivenpaudyal",
+    github: "https://github.com/shivenpaudyal9/customer-churn-prediction",
     demo: "",
     featured: false,
   },
@@ -33,7 +33,7 @@ export const projects: Project[] = [
     description:
       "Production-grade fraud detection system with full MLOps lifecycle — automated feature engineering, model versioning via MLflow, containerized REST API with Docker, and drift monitoring.",
     stack: ["MLflow", "Docker", "FastAPI", "Scikit-learn", "Redis", "PostgreSQL"],
-    github: "https://github.com/shivenpaudyal",
+    github: "https://github.com/shivenpaudyal9/fraud-detection-mlops",
     demo: "",
     featured: false,
   },

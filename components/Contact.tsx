@@ -20,7 +20,7 @@ const socials = [
   },
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/in/shivenpaudyal",
+    href: "https://www.linkedin.com/in/shiven-paudyal-216985182/",
     icon: Linkedin,
     color: "hover:text-blue-400",
   },
