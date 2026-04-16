@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 255 255 255;
+    --foreground: 10 10 15;
+  }
+
+  .dark {
+    --background: 10 10 15;
+    --foreground: 240 240 255;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+
+  body {
+    @apply bg-[#0a0a0f] text-gray-100 font-sans antialiased;
+  }
+
+  .light body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-400 via-accent-purple to-accent-cyan animate-gradient-x;
+  }
+
+  .card-glass {
+    @apply bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl;
+  }
+
+  .card-glass-light {
+    @apply bg-black/5 backdrop-blur-sm border border-black/10 rounded-2xl;
+  }
+
+  .glow-brand {
+    box-shadow: 0 0 30px rgba(98, 70, 255, 0.3), 0 0 60px rgba(98, 70, 255, 0.1);
+  }
+
+  .glow-cyan {
+    box-shadow: 0 0 30px rgba(34, 211, 238, 0.3);
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+::-webkit-scrollbar-thumb {
+  background: #6246ff;
+  border-radius: 3px;
+}
+
+/* Selection */
+::selection {
+  background: rgba(98, 70, 255, 0.4);
+  color: white;
+}
+
+/* Particle canvas */
+#particle-canvas {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
