@@ -132,7 +132,7 @@ export default function Projects() {
           className="mt-10 text-center"
         >
           <a
-            href="https://github.com/shivenpaudyal"
+            href="https://github.com/shivenpaudyal9"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-gray-400 hover:text-brand-400 transition-colors group"
