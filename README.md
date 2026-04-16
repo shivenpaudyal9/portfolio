@@ -1,4 +1,4 @@
-# Shiven Paudyal (Neo) — Portfolio
+# Shiven Paudyal — Portfolio
 
 Full-stack ML Engineer portfolio built with Next.js 14, TypeScript, Tailwind CSS, Framer Motion, Supabase, Resend, and the Claude AI API.
 
